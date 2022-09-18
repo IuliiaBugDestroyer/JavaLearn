@@ -1,6 +1,5 @@
-package Task2;
+package Task3and4;
 
-import Task3and4.Factory;
 
 public class StarWars {
     public static void main (String[] args) {
