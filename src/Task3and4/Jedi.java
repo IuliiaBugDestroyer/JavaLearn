@@ -5,4 +5,11 @@ public class Jedi extends Humanoid {
         super(firstname, lastname, true);
         System.out.println("Jedi " + firstname + " " + lastname);
     }
+
+    public class Inner {
+
+        public void SayHello() {
+            System.out.println("May the force be with you!");
+        }
+    }
 }

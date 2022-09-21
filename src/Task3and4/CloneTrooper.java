@@ -6,4 +6,10 @@ public class CloneTrooper extends JangoFett {
         this.lastname = lastname;
         System.out.print(" " + firstname + " " + lastname + "\r\n");
     }
+    public static class Nested {
+
+        public void SayHello() {
+            System.out.println("Empire needs you");
+        }
+    }
 }
