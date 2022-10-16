@@ -6,7 +6,7 @@ public class Factory {
     final static int MAX_SITH_COUNT = 2;
     public static ArrayList<Sith> Siths = new ArrayList<Sith>();
 
-    public static Entity Create (String person, String firstname, String lastname) {
+    public static Humanoid Create (String person, String firstname, String lastname) {
         if (person.equalsIgnoreCase("jedi")) {
             return new Jedi(firstname, lastname);
         } else if (person.equalsIgnoreCase("Sith")) {
