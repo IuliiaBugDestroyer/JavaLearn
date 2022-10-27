@@ -1,0 +1,1 @@
+DELETE FROM grand_prix WHERE name = 'Mayhem Grand Prix'
